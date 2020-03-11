@@ -1,2 +1,2 @@
 # itec_arduino2020
-Cursos introductorios programación general y microcontroladores
+Cursos introductorios base de programación y microcontroladores
