@@ -25,6 +25,10 @@ Cursos introductorios base de programación y microcontroladores.
 ## Base de programación
 
 <ul>
+	<li><a href="/libros/Cheatsheet_arduino.md">Resumen de los principales comandos</a></li>
+	<li>
+		<a href="Herramientas.md">Herramientas</a>
+	</li>
 	<li>
 		<a href="Constantes_variables_tipos_estructuras.md">Constantes, Variables, Tipos de Datos, Estructuras de Control</a>
 	</li>
