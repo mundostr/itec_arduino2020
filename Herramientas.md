@@ -5,4 +5,16 @@
 
 Para este curso, nos centraremos fundamentalmente en la programación bajo lenguajes C / C++ y Python, utilizando el entorno oficial de programación de Arduino (Arduino IDE), conjuntamente con el entorno de programación visual por bloques Mblock.
 
-En la carpeta <a href="/herramientas"><b>Herramientas</b></a>, encontrarán diversos contenidos con indicaciones y comentarios sobre la instalación de estos programas.
+Como soporte de contenidos utilizaremos Github, y para pruebas y simulaciones digitales sencillas, emplearemos la utilidad TinkerCAD de Autodesk.
+
+<ul>
+	<li>
+		<a href="/herramientas/arduino_ide_win.pdf">Cómo instalar Arduino IDE bajo Windows (PDF)</a>
+	</li>
+	<li>
+		<a href="/herramientas/git_github.pdf">Guía básica de Git / Github (PDF)</a>
+	</li>
+	<li>
+		<a href="/herramientas/editores_online_visual.pdf">Editores visuales y online para Arduino (PDF)</a>
+	</li>
+</ul>
