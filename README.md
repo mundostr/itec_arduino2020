@@ -55,4 +55,7 @@ Cursos introductorios base de programación y microcontroladores.
 	<li>
 		<a href="Ciclos_control.md">Ciclos de Control</a>
 	</li>
+	<li>
+		<a href="Tinkercad.md">Ejercicios virtuales con Tinkercad</a>
+	</li>
 </ul>

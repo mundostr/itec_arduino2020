@@ -17,4 +17,7 @@ Como soporte de contenidos utilizaremos Github, y para pruebas y simulaciones di
 	<li>
 		<a href="/herramientas/editores_online_visual.pdf">Editores visuales y online para Arduino (PDF)</a>
 	</li>
+	<li>
+		<a href="https://tinkercad.com/dashboard" target="_blank" rel="noopener">Simulador online TinkerCAD (Autodesk)</a>
+	</li>
 </ul>
