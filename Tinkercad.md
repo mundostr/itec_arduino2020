@@ -31,4 +31,21 @@ Para poder comenzar a trabajar con la herramienta, será necesario registrarse d
 
 El primer ejercicio super tradicional, y con el cual ya hemos trabajado en las primeras pruebas físicas con el Arduino UNO, es el parpadeo de un led. El UNO, como la mayoría de las placas de desarrollo actuales, incluye ya un led conectado a uno de sus pines, algo cómodo para pruebas. Precisamente es éste led el que hemos estado utilizando, unido al pin digital 13, pero obviamente podemos conectar también un led externo a ese mismo pin, o a cualquier otro de los digitales que tengamos disponible.
 
-<p>Agregar un Arduino UNO, un led y una resistencia, conectándolos según el siguiente esquema: <img src="/ejercicios/tinkercad_ej001.png"></</p>
+<ol>
+	<li>
+		Agregar un Arduino UNO, un led y una resistencia, conectándolos según el siguiente esquema: <img src="/ejercicios/tinkercad_ej001.png">
+	</li>
+	<li>
+		Podemos ver que del pin 13 del Arduino, conectamos una resistencia de 220 ohms (el valor se puede modificar pulsando sobre la resistencia, como cualquier otro componente) hacia uno de los pines del led. Del otro pin conectamos un cable hacia GND (ground = tierra) en el Arduino, para cerrar el circuito.
+		(Generar cables: recordar que al pulsar sobre cualquier pin de un componente, se iniciará el tirado de un cable hasta el destino que se desee, se deberá volver a pulsar en ese momento para cortarlo. Si se quiere, para mejor orden visual, se pueden cambiar los colores de los cables pulsando sobre los mismos).
+	</li>
+	<li>
+		Una vez armado el circuito, pulsar Start Simulation para iniciar la simulación. El led debería parpadear 1 vez por segundo, al mismo tiempo que el led rectangular incorporado en la placa, ya que están conectados ambos al pin 13. Este parpadeo se da porque al arrastrar el Arduino UNO al circuito, se copia de forma predeterminada un ejemplo de parpadeo.
+	</li>
+	<li>
+		Ingresar al botón Code, y probar diferentes cambios para familiarizarse con el circuito, tal cual se realizó en clase, por ejemplo utilizar distintos tiempos de parpadeo, ejecutar el parpadeo solo una determinada cantidad de veces, ejecutarlo después de cierto tiempo de encendida la placa, etc. Recordar que además del código de texto, se puede utilizar el editor gráfico por bloques para mayor comodidad.
+	</li>
+	<li>
+		La resistencia de 220 ohms permite regular el valor de corriente que circula hacia el led, probar el circuito conectando el led de forma directa entre el pin 13 y GND. Qué advertencia aparece?, Por qué?, charlaremos en clase sobre el tema.
+	</li>
+</ol>
