@@ -24,3 +24,11 @@ Para poder comenzar a trabajar con la herramienta, será necesario registrarse d
 	<li>Cuando se desee simular el funcionamiento del circuito, se puede iniciar la secuencia con el botón "Start Simulation" de la zona superior, si bien el soporte de este simulador no es avanzado, permite realizar muchas pruebas útiles en el aprendizaje.</li>
 	<li>El botón "Code" estará habilitado cuando se utilice una placa programable como el Arduino UNO, y permitirá ingresar el mismo código base C/C++ empleado en el Arduino IDE. Como alternativa, se podrá también diseñar el código mediante bloques visuales, lo cual resulta muy práctico para estudiantes en sus primeros pasos de programación, ya que permite abstraer el trabajo de la sintaxis y los detalles de texto del lenguaje, enfocándolo específicamente en la lógica del programa.</li>
 </ol>
+
+## Ejercicios
+
+### 01- Encendido y parpadeo de led
+
+El primer ejercicio super tradicional, y con el cual ya hemos trabajado en las primeras pruebas físicas con el Arduino UNO, es el parpadeo de un led. El UNO, como la mayoría de las placas de desarrollo actuales, incluye ya un led conectado a uno de sus pines, algo cómodo para pruebas. Precisamente es éste led el que hemos estado utilizando, unido al pin digital 13, pero obviamente podemos conectar también un led externo a ese mismo pin, o a cualquier otro de los digitales que tengamos disponible.
+
+<p>Agregar un Arduino UNO, un led y una resistencia, conectándolos según el siguiente esquema: <img src="/ejercicios/tinkercad_ej01.png" style="width: 400px;"></</p>
