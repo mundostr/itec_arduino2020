@@ -31,4 +31,4 @@ Para poder comenzar a trabajar con la herramienta, será necesario registrarse d
 
 El primer ejercicio super tradicional, y con el cual ya hemos trabajado en las primeras pruebas físicas con el Arduino UNO, es el parpadeo de un led. El UNO, como la mayoría de las placas de desarrollo actuales, incluye ya un led conectado a uno de sus pines, algo cómodo para pruebas. Precisamente es éste led el que hemos estado utilizando, unido al pin digital 13, pero obviamente podemos conectar también un led externo a ese mismo pin, o a cualquier otro de los digitales que tengamos disponible.
 
-<p>Agregar un Arduino UNO, un led y una resistencia, conectándolos según el siguiente esquema: <img src="/ejercicios/tinkercad_ej01.png"></</p>
+<p>Agregar un Arduino UNO, un led y una resistencia, conectándolos según el siguiente esquema: <img src="/ejercicios/tinkercad_ej001.png"></</p>
