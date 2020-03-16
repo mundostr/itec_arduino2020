@@ -5,15 +5,34 @@
 
 <img src="https://openwebinars.net/media/django-summernote/2015-01-31/12bddab0-3d93-4510-98ca-ef8a7410ed11.jpg" width="400">
 
-Hasta el momento nos hemos manejado con pines digitales, es decir, controlando solo dos estados (encendido o apagado, on u off, high o low, 0 o 1, tiene o no tiene corriente), utilizando las bahías superiores de nuestra placa Arduino.
+### Sentido de operación de un pin
 
-<b>De hecho un microcontrolador opera en la totalidad de sus pines de manera digital</b>, sin embargo <b>en oportunidades tendremos necesidad de medir magnitudes físicas que pueden asumir cualquier valor dentro de un rango</b>, aquí nos serán de utilidad los pines analógicos, que en el caso del Arduino UNO se ubican en una bahía en la parte inferior derecha.
+En un microcontrolador, es normal que los diversos pines cuenten con una asignación previa que determine para cada uno si está operando como ENTRADA (INPUT) o como SALIDA (OUTPUT). Sin embargo, también es común que muchos de los pines disponibles sean de tipo GPIO, con lo cual pueden actuar tanto de entrada como de salida, y por ende lo primero que debemos hacer al manejar un pin desde nuestro código, es indicarle al sistema su sentido de operación. En Arduino esto se logra cómodamente mediante la función <b>pinMode()</b>.
+
+```
+void setup() {
+	pinMode(13, OUTPUT);
+}
+
+void loop() {
+}
+```
+
+En este ejemplo seteamos al pin 13 como SALIDA, utilizando la constante OUTPUT que ya se encuentra predefinida en el sistema (al igual que INPUT, HIGH, LOW y muchas otras que iremos viendo).
+
+### Pines digitales
+
+Un pin digital, como ya mencionamos, opera manejando solo dos estados (aunque como veremos más adelante pueden considerarse otros estados de transición); esos dos estados son 0 y 1 (LOW y HIGH). Existen 2 funciones de alto nivel, <b>digitalRead(Pin)</b> y <b>digitalWrite(Pin, ESTADO)</b> para la lectura y escritura según se necesite. Veremos en breve cómo emplear estas funciones que serán de uso cotidiano en los diferentes proyectos.
+
+### Pines analógicos
+
+<b>Un microcontrolador opera en la totalidad de sus pines de manera digital</b>, sin embargo <b>en oportunidades tendremos necesidad de medir magnitudes físicas que pueden asumir cualquier valor dentro de un rango</b>, aquí nos serán de utilidad los pines analógicos, que en el caso del Arduino UNO se ubican en una bahía en la parte inferior derecha.
 
 <img src="https://openwebinars.net/media/django-summernote/2015-01-31/dea32eaf-5a37-4f8d-aeaf-4db538d71020.jpg" width="400">
 
-Como mencionamos, internamente el microcontrolador opera de manera digital, entonces qué diferencia a estos pines de los ubicados en la parte superior?. Bien, los pines analógicos A0 a A5 del Arduino UNO, están conectados a lo que se denomina un <a href="https://aprendiendoarduino.wordpress.com/tag/adc/"><b>ADC (Analog Digital Converter) o Conversor Analógico Digital</b></a>, el cual se encarga de realizar una cuantificación para convertir el valor analógico en una codificación digital (ingresar al enlace del nombre para tener información más detallada de este proceso), y nos devuelve un número en el rango 0 a 1023, proporcional a la lectura analógica que está recibiendo.
+Como mencionamos, internamente el microcontrolador opera de manera digital, entonces qué diferencia a estos pines de los ubicados en la parte superior?. Bien, los pines analógicos A0 a A5 del Arduino UNO, están conectados a lo que se denomina un <a href="https://aprendiendoarduino.wordpress.com/tag/adc/"><b>ADC (Analog Digital Converter) o Conversor Analógico Digital</b></a>, el cual se encarga de realizar una cuantificación para convertir el valor analógico en una codificación digital y nos devuelve un número en el rango 0 a 1023, proporcional a la lectura analógica que está recibiendo.
 
-<i>Este rango depende de la resolución del conversor, en el caso del Arduino UNO la resolución es de 10 bits (2 elevado a la 10 = 1024), de allí los valores entre 0 y 1023</i>. Como veremos más adelante, esta resolución se puede ver afectada también por el rango de voltaje recibido en las entradas analógicas, que en el UNO operan de 0 a 5V. Si trabajamos en esas entradas con un nivel menor (0 a 3.3V por ejemplo), deberemos ajustar el voltaje de referencia (ARef) para aprovechar al 100% el rango del conversor.
+<i>Este rango depende de la resolución del conversor, en el caso del Arduino UNO la resolución es de 10 bits (2 elevado a la 10 = 1024), de allí los valores entre 0 y 1023</i>. Como veremos más adelante, esta resolución se puede ver afectada también por el rango de voltaje recibido en las entradas analógicas, que en el UNO operan de 0 a 5V. Si trabajamos en esas entradas con un nivel menor (0 a 3.3V por ejemplo), deberemos ajustar el voltaje de referencia (ARef) para aprovechar al 100% el rango del conversor. Otras placas de desarrollo cuentan con conversores de mayor resolución (12 bits por ejemplo).
 
 <p>&nbsp;</p>
 

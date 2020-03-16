@@ -46,6 +46,48 @@ El primer ejercicio super tradicional, y con el cual ya hemos trabajado en las p
 		Ingresar al botón Code, y probar diferentes cambios para familiarizarse con el circuito, tal cual se realizó en clase, por ejemplo utilizar distintos tiempos de parpadeo, ejecutar el parpadeo solo una determinada cantidad de veces, ejecutarlo después de cierto tiempo de encendida la placa, etc. Recordar que además del código de texto, se puede utilizar el editor gráfico por bloques para mayor comodidad.
 	</li>
 	<li>
+		Reemplazar las aparicios de pin y demoras por constantes o variables, para practicar su definición y asignación. Qué sería lo más correcto en este caso?.
+	</li>
+	<li>
 		La resistencia de 220 ohms permite regular el valor de corriente que circula hacia el led, probar el circuito conectando el led de forma directa entre el pin 13 y GND. Qué advertencia aparece?, Por qué?, charlaremos en clase sobre el tema.
 	</li>
 </ol>
+
+### 02 - Pulsador
+
+Otro elemento muy común en electrónica, es un pulsador, que se trata básicamente de un interruptor, es decir, una llave física que permite abrir o cerrar un circuito. En la programación de la placa Arduino, el pulsador será muy cómodo para indicar en qué momento algo debe iniciar o finalizar. Más adelante veremos en mayor detalle el uso de este elemento.
+
+<ol>
+	<li>
+		Conectar un UNO, como en el ejemplo anterior, pero agregarle ahora un pulsador (pushbutton) de acuerdo al siguiente gráfico: <img src="/ejercicios/tinkercad_ej002.png">.
+	</li>
+	<li>
+		Vemos un esquema diferente conectado al pin 12; unimos mediante una resistencia de 1K (1K = 1 kilo ohm) hacia el pin GND, y por otro lado unimos hacia uno de los pines del pulsador, y del otro pin (extremo) conectamos hacia alimentación de 5V (VCC, en este caso tenemos disponible en la propia placa una salida de 5V). Ahora estamos realizando el proceso contrario al ejemplo del led, necesitamos LEER el pin para detectar si el pulsador se encuentra abierto o cerrado, por ende en este caso, deberemos configurar el pin como INPUT.
+	</li>
+	<li>
+		Cómo funciona este esquema?: cuando el botón está libre (no pulsado), el pin 12 cierra circuito hacia GND a través de la resistencia. Si realizamos una lectura del pin en ese momento, la misma será 0 (LOW); cuando se presiona el pulsador, se cierra circuito directo entre el pin 12 y VCC (5V en este caso), con lo cual la corriente fluye directamente por esta vía. Si leemos el pulsador en ese momento, su valor será 1 (HIGH).
+	</li>
+</ol>
+
+<p>Vamos a ver un código de ejemplo para entender como realizamos esta lectura</p>
+
+```
+void setup() {
+  pinMode(12, INPUT);
+  pinMode(13, OUTPUT);
+}
+
+void loop() {
+  if (digitalRead(12) == HIGH) {
+    digitalWrite(13, HIGH);
+  } else {
+    digitalWrite(13, LOW);
+  }
+}
+```
+
+Vemos en setup() el uso al que ya estamos habituados de la función pinMode(), no obstante en este caso configuramos 2 pines, el 13 como SALIDA para el led, al igual que el ejemplo anterior, y el 12 como ENTRADA para poder realizar la lectura del botón.
+
+<p>El nuevo agregado es el de la función digitalRead(), que nos permite leer el estado actual del pin. Combinando esa lectura dentro de una condición (if), podemos decidir si activar o no la salida del pin 13. De esta forma el led ya no encenderá a intervalos regulares (como el ejemplo del parpadeo), sino solo al mantener presionado el pulsador.</p>
+
+<p>Practicar nuevamente el uso de constantes / variables. Intentar un nuevo ejercicio en el cual el led parpadee constantemente, como el ej1, pero solo comience a hacerlo una vez que se haya tocado el pulsador. Para ello tendremos que realizar la lectura del pulsador inicialmente, dentro del setup(), y aprovechar una función <b>while()</b> para solo saltar al loop() una vez que el botón haya cambiado de estado.</p>
