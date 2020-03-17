@@ -15,6 +15,9 @@ Como soporte de contenidos utilizaremos Github, y para pruebas y simulaciones di
 		<a href="/herramientas/git_github.pdf">Guía básica de Git / Github (PDF)</a>
 	</li>
 	<li>
+		<a href="https://opentechschool.github.io/social-coding/">Guía detallada de uso de Github</a>
+	</li>
+	<li>
 		<a href="/herramientas/editores_online_visual.pdf">Editores visuales y online para Arduino (PDF)</a>
 	</li>
 	<li>
