@@ -55,6 +55,12 @@ Cursos introductorios base de programación y microcontroladores.
 	<li>
 		<a href="Ciclos_control.md">Ciclos de Control</a>
 	</li>
+	<li>
+		<a href="Funciones.md">Funciones</a>
+	</li>
+	<li>
+		<a href="Librerias.md">Librerías</a>
+	</li>
 </ul>
 
 ## Ejercicios
