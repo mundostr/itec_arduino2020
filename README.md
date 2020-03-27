@@ -21,6 +21,9 @@ Cursos introductorios base de programación y microcontroladores.
 		<a href="/libros/electronica_basica_02.pdf">Electrónica Básica 02 (PDF)</a>
 	</li>
 	<li>
+		<a href="/libros/uso_de_protoboard.pdf">Uso de Protoboard (PDF)</a>
+	</li>
+	<li>
 		<a href="Elementos_taller.md">Elementos de taller</a>
 	</li>
 	<li>
