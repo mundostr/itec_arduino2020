@@ -72,4 +72,7 @@ Cursos introductorios base de programación y microcontroladores.
 	<li>
 		<a href="Tinkercad.md">Ejercicios virtuales con Tinkercad</a>
 	</li>
+	<li>
+		<a href="codigos">Códigos de práctica</a>
+	</li>
 </ul>
