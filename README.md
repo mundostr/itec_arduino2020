@@ -75,4 +75,7 @@ Cursos introductorios base de programación y microcontroladores.
 	<li>
 		<a href="codigos">Códigos de práctica</a>
 	</li>
+	<li>
+		<a href="https://www.youtube.com/playlist?list=PLvw-BPUN81-RChyZ4mPiUGE3SjYPdX9rz">Videos complementarios (Youtube)</a>
+	</li>
 </ul>
