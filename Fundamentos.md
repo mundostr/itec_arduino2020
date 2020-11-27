@@ -1,5 +1,5 @@
 <h1><b>FUNDACION INSTITUTO TECNOLOGICO RAFAELA</b></h1>
-<h2><b>Taller Arduino Adultos 2020</b></h2>
+<h2><b>Taller Arduino 2020</b></h2>
 
 <h3>Fundamentos</h3>
 
@@ -35,7 +35,7 @@ Mayores detalles sobre límites de corriente en Arduino:
 
 <b>Conexión en serie</b>: cuando un componente es conectado a continuación de otro, el mismo valor de corriente circulará por los distintos elementos. <b>La resistencia total del circuito será igual a la suma de las resistencias parciales</b>, con lo cual en el gráfico si cada foco tiene una R de 10k (R total 20k), la I será 9 / 20 = 0,45 mAh y la pot de 4,05 mW.
 
-<img src="http://www.mundostreaming.tv/itec/arduino/imgs/con_paralelo.gif" width="250">
+<img src="http://idux.net/itec/arduino/imgs/con_paralelo.gif" width="250">
 
 <b>Conexión en paralelo</b>: en este caso todos los componentes son alimentados al mismo tiempo (terminales de entrada y de salida unidos entre sí), cada uno limita su propia corriente. <b>La resistencia total del circuito será la inversa de la suma de las resistencias parciales</b>, (1/RT = 1/R1 + 1/R2), con lo cual en el gráfico la R total será 1/RT = 1 / 10 + 1 / 10; 1/RT = 0,2; RT = 1 / 0,2 = 5, la I será 9 / 5 = 1,8 mAh y la pot de 16,2 mW.
 
