@@ -31,7 +31,7 @@ Mayores detalles sobre límites de corriente en Arduino:
 
 <h3><b>Conexiones en serie y en paralelo</b></h3>
 
-<img src="http://www.mundostreaming.tv/itec/arduino/imgs/con_serie.gif" width="250">
+<img src="https://idux.net/itec/arduino/imgs/con_serie.gif" width="250">
 
 <b>Conexión en serie</b>: cuando un componente es conectado a continuación de otro, el mismo valor de corriente circulará por los distintos elementos. <b>La resistencia total del circuito será igual a la suma de las resistencias parciales</b>, con lo cual en el gráfico si cada foco tiene una R de 10k (R total 20k), la I será 9 / 20 = 0,45 mAh y la pot de 4,05 mW.
 
