@@ -40,7 +40,7 @@ Como mencionamos, internamente el microcontrolador opera de manera digital, ento
 
 Conectaremos el siguiente circuito, empleando el potenciómetro de 10k incluído en el kit, para intentar tener una lectura progresiva del valor del mismo.
 
-<img src="http://www.mundostreaming.tv/itec/arduino/imgs/arduino_pot.png?rnd=2" width="400">
+<img src="https://idux.net/itec/classroom/tinker_pote.png?rnd=1" width="400">
 
 La conexión del pot es muy sencilla, los extremos van a 5V y GND (indistintamente), y el punto central al pin A0. Intercambiando los extremos lograremos que el pot incremente su resistencia de forma horaria o antihoraria, es decir, solo invertiremos la lectura.
 
