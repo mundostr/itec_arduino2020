@@ -8,9 +8,9 @@ Cursos introductorios base de programación y microcontroladores.
 	<li>
 		Conceptos esenciales de programación. Lenguajes de bajo y alto nivel. Compilación e interpretación. Arduino como plataforma de aprendizaje.
 	</li>
-	<li>
+	<!-- <li>
 		<a href="Bienvenida.md">Bienvenida</a>
-	</li>
+	</li> -->
 	<li>
 		<a href="Fundamentos.md">Conceptos iniciales de electrónica</a>
 	</li>
