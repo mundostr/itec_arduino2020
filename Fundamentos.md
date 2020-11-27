@@ -1,5 +1,5 @@
 <h1><b>FUNDACION INSTITUTO TECNOLOGICO RAFAELA</b></h1>
-<h2><b>Taller Arduino 2020</b></h2>
+<h2><b>Taller Arduino Adultos 2020</b></h2>
 
 <h3>Fundamentos</h3>
 
