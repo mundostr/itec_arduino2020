@@ -3,37 +3,37 @@
 
 <h3>Elementos de taller</h3>
 
-<img src="http://www.mundostreaming.tv/itec/arduino/imgs/protoboard.jpg" width="320">
+<img src="http://idux.net/itec/arduino/imgs/protoboard.jpg" width="320">
 
 <b>Protoboard</b>: es una placa plástica cuyas filas externas (líneas de corriente en celeste y rojo) están conectadas de forma horizontal, y sus columnas internas de manera vertical. Nos permitirá <b>conectar rápidamente distintos componentes para prototipar y probar</b> circuitos sin necesidad de soldaduras.
 
 ---
 
-<img src="http://www.mundostreaming.tv/itec/arduino/imgs/placa_perforada.jpg" width="300">
+<img src="http://idux.net/itec/arduino/imgs/placa_perforada.jpg" width="300">
 
 <b>Placa perforada</b>: es una placa plástica (epoxi) multiperforada a distancia standard (2,54 mm), de simple o doble faz, en la cual se pueden <b>soldar componentes y elaborar circuitos definitivos</b> que deban ser más compactos y operativos, pero sin ser producidos en cantidad o de manera profesional.
 
 ---
 
-<img src="http://www.mundostreaming.tv/itec/arduino/imgs/multimetro.jpg" width="300">
+<img src="http://idux.net/itec/arduino/imgs/multimetro.jpg" width="300">
 
 <b>Multímetro</b>: es otro de los elementos infaltables en el banco de trabajo, <b>nos permite medir de forma fácil y precisa voltaje, amperaje, resistencia, continuidad y otros</b>. Muchas veces tendremos necesidad de verificar el valor de una resistencia, las características de un transistor, el estado de un cable o pista, en todos será muy útil.
 
 ---
 
-<img src="http://www.mundostreaming.tv/itec/arduino/imgs/osciloscopio.jpg" width="300">
+<img src="http://idux.net/itec/arduino/imgs/osciloscopio.jpg" width="300">
 
 <b>Osciloscopio</b>: también nos permite <b>medir niveles</b> pero con la opción de <b>observarlo además gráficamente en un display</b>, es mucho más caro y por consiguiente más difícil de gestionar cuando recién comenzamos a equipar nuestro taller, se puede reemplazar con opciones alternativas menos precisas vía PC o móvil.
 
 ---
 
-<img src="http://www.mundostreaming.tv/itec/arduino/imgs/fuente_laboratorio.jpg" width="300">
+<img src="http://idux.net/itec/arduino/imgs/fuente_laboratorio.jpg" width="300">
 
 <b>Fuente de laboratorio</b>: es una fuente de alimentación <b>conectable a tensión de línea</b> (220V), que cuenta con <b>salida de tensión continua con valor ajustable</b> (ejemplo 0 a 36V), <b>intensidad ajustable</b> (ejemplo 0 a 5A), <b>protecciones y salidas de medición</b>. Este tipo de fuentes son muy útiles y versátiles, pero al igual que los osciloscopios, un tanto caras para las primeras inversiones en nuestro taller.
 
 ---
 
-<img src="http://www.mundostreaming.tv/itec/arduino/imgs/fuente_laboratorio_casera.jpg" width="300">
+<img src="http://idux.net/itec/arduino/imgs/fuente_laboratorio_casera.jpg" width="300">
 
 <b>Fuente de laboratorio casera</b>: una alternativa mucho más económica, viable para los comienzos, es la modificación de una fuente de PC para su uso como alimentación en nuestros proyectos de microcontroladores, aprovechando sus salidas standard de 12, 5 y 3.3V, y agregando opcionalmente una salida regulable con display.
 
