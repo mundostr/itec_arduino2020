@@ -46,30 +46,30 @@ Cursos introductorios base de programación y microcontroladores.
 	<li>
 		<a href="Pines.md">Pines digitales y analógicos</a>
 	</li>
-	<li>
+	<!-- <li>
 		<a href="Consola_plotter.md">Consola y plotter Serial</a>
-	</li>
+	</li> -->
 	<li>
 		<a href="Constantes_variables_tipos_estructuras.md">Constantes, Variables, Tipos de Datos, Estructuras de Control</a>
 	</li>
-	<li>
+	<!-- <li>
 		<a href="/libros/arduino_tipos_datos_standard.pdf">Resumen tipos de datos standard Arduino (PDF)</a>
-	</li>
+	</li> -->
 	<li>
 		<a href="Ciclos_control.md">Ciclos de Control</a>
 	</li>
-	<li>
+	<!-- <li>
 		<a href="Funciones.md">Funciones</a>
-	</li>
-	<li>
+	</li> -->
+	<!-- <li>
 		<a href="Librerias.md">Librerías</a>
-	</li>
-	<li>
+	</li> -->
+	<!-- <li>
 		<a href="Temporizadores.md">Temporizadores (timers) e Interrupciones</a>
-	</li>
-	<li>
+	</li> -->
+	<!-- <li>
 		<a href="Pwm.md">Modulación por Ancho de Pulso (PWM)</a>
-	</li>
+	</li> -->
 </ul>
 
 ## Ejercicios
@@ -78,9 +78,9 @@ Cursos introductorios base de programación y microcontroladores.
 	<li>
 		<a href="Tinkercad.md">Ejercicios virtuales con Tinkercad</a>
 	</li>
-	<li>
+	<!-- <li>
 		<a href="codigos">Códigos de práctica</a>
-	</li>
+	</li> -->
 	<li>
 		<a href="https://www.youtube.com/playlist?list=PLvw-BPUN81-RChyZ4mPiUGE3SjYPdX9rz">Videos complementarios (Youtube)</a>
 	</li>
