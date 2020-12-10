@@ -46,21 +46,21 @@ Cursos introductorios base de programación y microcontroladores.
 	<li>
 		<a href="Pines.md">Pines digitales y analógicos</a>
 	</li>
-	<!-- <li>
+	<li>
 		<a href="Consola_plotter.md">Consola y plotter Serial</a>
-	</li> -->
+	</li>
 	<li>
 		<a href="Constantes_variables_tipos_estructuras.md">Constantes, Variables, Tipos de Datos, Estructuras de Control</a>
 	</li>
-	<!-- <li>
+	<li>
 		<a href="/libros/arduino_tipos_datos_standard.pdf">Resumen tipos de datos standard Arduino (PDF)</a>
-	</li> -->
+	</li>
 	<li>
 		<a href="Ciclos_control.md">Ciclos de Control</a>
 	</li>
-	<!-- <li>
+	<li>
 		<a href="Funciones.md">Funciones</a>
-	</li> -->
+	</li>
 	<!-- <li>
 		<a href="Librerias.md">Librerías</a>
 	</li> -->
