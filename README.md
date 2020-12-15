@@ -61,12 +61,12 @@ Cursos introductorios base de programación y microcontroladores.
 	<li>
 		<a href="Funciones.md">Funciones</a>
 	</li>
-	<!-- <li>
+	<li>
 		<a href="Librerias.md">Librerías</a>
-	</li> -->
-	<!-- <li>
+	</li>
+	<li>
 		<a href="Temporizadores.md">Temporizadores (timers) e Interrupciones</a>
-	</li> -->
+	</li>
 	<!-- <li>
 		<a href="Pwm.md">Modulación por Ancho de Pulso (PWM)</a>
 	</li> -->
